@@ -9,7 +9,7 @@ permissions:
 jobs:
 
   build-and-test:
-    permissions:
+    permissions: # permissions can be moved to ci as well
       id-token: write # need this for OIDC
       contents: read
     uses: ./.github/workflows/ci.yml
@@ -17,7 +17,7 @@ jobs:
 
   deploy-to-prod:
     needs: [build-and-test]
-    permissions:
+    permissions: # permissions can be moved to cd as well
       id-token: write # need this for OIDC
       contents: read
     uses: ./.github/workflows/cd.yml
