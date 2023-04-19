@@ -1,5 +1,4 @@
-**@yoyoyojoe:**  
-_I'm keeping this as my unique version, with extra notes that are meant only for me to better understand GHA & AWS._
+**@yoyoyojoe:** _I'm keeping this as my unique version, with extra notes that are meant only for me to better understand GHA & AWS._
 
 # Hack Pod April 19 2023
 
